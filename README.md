@@ -51,7 +51,7 @@ UX flow
 
 ### View it live
 
-Project link: [Daily Mental Health Check - A React Project]()
+Project link: [Daily Mental Health Check - A React Project](https://capable-sopapillas-7c54e7.netlify.app/)
 
 ## Instructions
 
