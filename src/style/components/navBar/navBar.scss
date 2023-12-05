@@ -2,9 +2,61 @@
   position: fixed;
   bottom: 0;
   left:0;
-  background-color: green;
+  background-color: #fff;
   right: 0;
   .navBtn {
-    
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    /* position: absolute; */
+    /*  */
+   /*  top: 30px; */
+    padding: 0.5em;
+    background-color: rgb(222, 196, 196);
+    border: 0;
+    cursor: pointer;
+    z-index: 400;
+
+    .navBtn-icon {
+      margin: auto;
+      background: #3a3a3a;
+      width: 30px;
+      height: 3px;
+      border-radius: 1em;
+      display: block;
+      position: relative;
+      transition: .5s;
+      transition-timing-function: ease-in-out;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 9px;
+        background: #3a3a3a;
+        width: 30px;
+        height: 3px;
+        border-radius: 1em;
+        transition: .5s;
+        transition-timing-function: ease-in-out; 
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 9px;
+        background: #3a3a3a;
+        width: 30px;
+        height: 3px;
+        border-radius: 1em;
+        transition: .5s;
+        transition-timing-function: ease-in-out;
+      }
+    }
   }
 }

@@ -10,12 +10,12 @@ export const NavBar = () => {
   return(
     <div className="navBar">
       {isOpen && <Nav />}
-      <h2>Navbar</h2>
       <button 
         className="navBtn"
         onClick={() => dispatch(toggleNav())}
+        aria-label="Open the menu"
       >
-        Toggle Nav
+        <span className="navBtn-icon"></span>
       </button>
     </div>
   );
