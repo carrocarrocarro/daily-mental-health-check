@@ -1,0 +1,22 @@
+{
+  "activities": [
+    {
+      "id": "1",
+      "title": "Take a walk",
+      "type": "calm",
+      "description": "Enjoy the day and take a walk"
+    },
+    {
+      "id": "2",
+      "title": "Enjoy a coffe",
+      "type": "calm",
+      "description": "Enjoy the day and make yourself a good cup of coffe"
+    },
+    {
+      "id": "3",
+      "title": "Go for a run",
+      "type": "active",
+      "description": "Enjoy the day and take a run"
+    }
+  ]
+}

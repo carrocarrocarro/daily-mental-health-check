@@ -1,0 +1,26 @@
+.startLoader {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+  315deg,
+  hsl(231deg 100% 20%) 0%,
+  hsl(223deg 90% 29%) 5%,
+  hsl(218deg 88% 38%) 13%,
+  hsl(213deg 93% 46%) 24%,
+  hsl(231deg 75% 65%) 37%,
+  hsl(310deg 35% 55%) 50%,
+  hsl(348deg 68% 58%) 63%,
+  hsl(359deg 94% 56%) 74%,
+  hsl(21deg 100% 51%) 84%,
+  hsl(37deg 100% 49%) 91%,
+  hsl(52deg 100% 47%) 97%,
+  hsl(68deg 100% 50%) 100%
+);
+}
