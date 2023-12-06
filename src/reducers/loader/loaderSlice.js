@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import navSlice from "../nav/navSlice";
 
 const initialState = {
   isLoading: false
